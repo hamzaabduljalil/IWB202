@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Books</title>
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="logo">IWB202</div>
+        <ul class="main-nav">
+          <li><a href="index.html">home</a></li>
+          <li><a href="AboutUs.html">AboutUs</a></li>
+          <li><a href="Books.html">Books</a></li>
+        </ul>
+      </div>
+    </div>
+    <!--  -->
+    <div class="books">
+      <table>
+        <tbody>
+          <tr class="tr">
+            <td>ISBN رمزالكتاب</td>
+            <td>العنوان</td>
+            <td>السعر</td>
+            <td>إظهار التفاصيل</td>
+            <td>اختيار</td>
+          </tr>
+          <tr>
+            <td>978-9770916738</td>
+            <td>يٌحكى أن</td>
+            <td>15000 ل.س</td>
+            <td><div id="1" class="show-modal">عرض المزبد</div></td>
+            <td>
+              <label><input type="checkbox" value="يٌحكى أن " /></label>
+            </td>
+          </tr>
+          <tr>
+            <td>978_977_86876_1_6</td>
+            <td>كن الشخص الذي يجعلك سعيداًِ</td>
+            <td>20000 ل.س</td>
+            <td><div id="2" class="show-modal">عرض المزبد</div></td>
+            <td>
+              <label
+                ><input type="checkbox" value="كن الشخص الذي يجعلك سعيداً "
+              /></label>
+            </td>
+          </tr>
+          <tr>
+            <td>978_9953_26_713_5</td>
+            <td>الأسود يليق بك</td>
+            <td>30000 ل.س</td>
+            <td><div id="3" class="show-modal">عرض المزبد</div></td>
+            <td>
+              <label><input type="checkbox" value="الأسود يليق بك  " /></label>
+            </td>
+          </tr>
+          <tr>
+            <td>978_9776_90_220_6</td>
+            <td>جثة في بيت طائر الدودو</td>
+            <td>35000 ل.س</td>
+            <td><div id="4" class="show-modal">عرض المزبد</div></td>
+            <td>
+              <label
+                ><input type="checkbox" value=" جثة في بيت طائر الدودو  "
+              /></label>
+            </td>
+          </tr>
+          <tr>
+            <td>978-9921-7232-9-8</td>
+            <td>هايدي</td>
+            <td>35000 ل.س</td>
+            <td><div id="5" class="show-modal">عرض المزبد</div></td>
+            <td>
+              <label><input type="checkbox" value=" هايدي   " /></label>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <button class="next">متابعة</button>
+    </div>
+    <!--  -->
+    <div class="modal hidden" id="01">
+      <button class="close-modal">&times;</button>
+      <h1>ملخص</h1>
+      <div class="info_modal">
+        <p><span> الناشر: </span>دار كلمات للنشر والتوزيع</p>
+        <p>
+          <span> تصنيف الكتاب: </span>
+
+          قصص قصيرة
+        </p>
+        <p class="text">
+          يحكى أن حكايا امرأة عجوز كتبتها بشفتيها الأميتين على دفتر ذاكرتي،
+          فكبرت بها ومعها، ترددت كثيراً قبل إلباس الكلمات ثوباً من فصاحة، إذ أن
+          اللغة العربية المحكية جزء لا يتجزأ من الحكاية ثم إني قررت ان اكسوها
+          حرفاً عربياً من غير سوء، معتمداً بذلك أني أطلقها من قفص صدري وذاكرتي
+          الى فضاء العربية الرحب، فأنا هنا لا أكتب الحكايا بقدر ما أحررها،
+          أشرككم ببعض جدتي، معتذراً أني ما استطعت أن أحمل الكلمات صوتها الذي
+          مازال يدق في أذني كناقوس تحركه رياح الحنين
+        </p>
+        <p>
+          <span> اهم ثلاث قصص: </span>
+
+          1- اتق شر من احسنت اليه 2- كيد النساء غلب كيد الرجال 3- اردتك اسداً
+          يُعطي لا ثعلباً يأخذ
+        </p>
+      </div>
+      <div class="photo">
+        <img src="./Picture/282651.jpg" />
+        <img src="./Picture/298604.jpg" />
+        <img src="./Picture/346573.jpg" />
+      </div>
+    </div>
+    <!--  -->
+    <div class="modal hidden" id="02">
+      <button class="close-modal">&times;</button>
+      <h1>ملخص</h1>
+      <div class="info_modal">
+        <p><span> الناشر: </span>دار عصير الكتب</p>
+        <p>
+          <span> تصنيف الكتاب: </span>
+
+          تقدير الذات
+        </p>
+        <p class="text">
+          أكبر كذبة قيلت لنا هي: كن مع الشخص الذي يجعلك سعيداً. الحقيقة هي أن
+          السعادة شيء تصنعه بنفسك، ان تكون سعيداً مع نفسك لا يعني أن حياتك
+          مثالية وأنك مثالي، بل ينبغي أنك تبحث عن جوهرك وسط العيوب. ان تستحق
+          الحب والعاطفة، حتى لو لم يقدرك احدٌ بما يكفي لتعزيز هذا الاعتقاد.
+          وتستحق الاستقرار والنجاح حتى لو لم تتمكن من رؤية خارطة الطريق التي
+          ستوصلك الى هناك ففي كل مرة يحدث فيها خطأ ما، يمكنك تصحيحه. لأنك تعرف
+          كيف تبدأ من جديد، وكيف تنقذ نفسك، وكيف تنهض مرة أخرى بعد كل خريف. توقف
+          عن انتظار شخص ما ليأتي ويجعل حياتك تستحق العيش
+        </p>
+        <p>
+          <span> اهم ثلاث قصص: </span>
+
+          1-كن سعيداً كل يوم 2- الأيام الأفضل قادمة 3- املأ كوبك اولاً
+        </p>
+      </div>
+      <div class="photo">
+        <img src="./Picture/282651.jpg" />
+        <img src="./Picture/298604.jpg" />
+        <img src="./Picture/346573.jpg" />
+      </div>
+    </div>
+    <!--  -->
+    <div class="modal hidden" id="03">
+      <button class="close-modal">&times;</button>
+      <h1>ملخص</h1>
+      <div class="info_modal">
+        <p><span> الناشر: </span>نوفل</p>
+        <p>
+          <span> تصنيف الكتاب: </span>
+
+          رواية
+        </p>
+        <p class="text">
+          ما من قصة حب آلا وتبدأ بحركة موسيقية، قائد الأوركسترا فيها ليس قلبك
+          إنما القدر الذي يخفي عنك عصاه. بها يقودك نحو سلم موسيقي لا درج له، ما
+          دمت لا تمتلك من سمفونية العمر لا ((مفتاح الصول)) .... ولا القفلة
+          الموسيقية. الموسيقى لا تهملك انها تمضي بك سرعاً كما الحياة، جدولاً
+          طرباً، أو شلالاً هادراً يلقي بك الى المصب. تدور بك كفالس محموم، على
+          إيقاعه تبدأ قصص الحب ... وتنتهي. حاذر أن تغادر حلبة الرقص كي لا تغادرك
+          الحياة. لا تكترث للنغمات التي تتساقط من صولفيج حياتك، فما هي إلا
+          نوتات...أحلام
+        </p>
+        <p>
+          <span> اهم ثلاث قصص: </span>
+
+          - من أي نجوم أتينا لنلتقي أخيراً 2- المال لا يجلب السعادة لكن يسمح لنا
+          أن نعيش تعاستنا برفاهية 3-أحبَّ من شئت فأنت مفارقه
+        </p>
+      </div>
+      <div class="photo">
+        <img src="./Picture/282651.jpg" />
+        <img src="./Picture/298604.jpg" />
+        <img src="./Picture/346573.jpg" />
+      </div>
+    </div>
+    <!--  -->
+    <div class="modal hidden" id="04">
+      <button class="close-modal">&times;</button>
+      <h1>ملخص</h1>
+      <div class="info_modal">
+        <p><span> الناشر: </span>عصير الكتب</p>
+        <p>
+          <span> تصنيف الكتاب: </span>
+
+          قصص مصورة
+        </p>
+        <p class="text">
+          هل تشعر أن العالم مكان خانق؟ وأن اليد التي تمدها له بالود يصفعها
+          بالخذلان؟ هل تشعر أن العالم بهشاشة عجوز بلغ الستين، وبقسوة مطرقة تسقط
+          فوق رأسك بوتيرة ثابتة؟ "لوط" أيضاً يرى العالم من النافذة ذاتها التي
+          تنظر انت منها، ظل واقفاً أمامها يقلب الزمن، حتى أستيقظ ذات مساء
+          متفاجأً بجثة في فراشه. لم يكن عثوره على الجثة سوى الحدث الأول من سلسله
+          أحداث غرائبية ستقع له في تلك الليلة، وبخاصةً عندما تطرق بابه ليلاً
+          ضيفة عجيبة تحمل حقيبة قماشية تسع العالم.
+        </p>
+        <p>
+          <span> اهم ثلاث فقرات: </span>
+
+          الفصل الأول – الفصل الرابع -الفصل السادس
+        </p>
+      </div>
+      <div class="photo">
+        <img src="./Picture/282651.jpg" />
+        <img src="./Picture/298604.jpg" />
+        <img src="./Picture/346573.jpg" />
+      </div>
+    </div>
+    <!--  -->
+    <div class="modal hidden" id="05">
+      <button class="close-modal">&times;</button>
+      <h1>ملخص</h1>
+      <div class="info_modal">
+        <p><span> الناشر: </span>منشورات تكوين</p>
+        <p>
+          <span> تصنيف الكتاب: </span>
+
+          روايات
+        </p>
+        <p class="text">
+          هرواية هايدي تأليف يوهانا شبيري.. نشرت الرواية عام 1881، ولم تزل
+          مقروءة حتى يومنا هذا، إذ ترجمت الى أكثر من 70 لغة فب انحاء العالم،
+          وقيل انها ترجمت الى الإنجليزية وحدها ثلاث عشرة مرة! أصبحت هايدي جزءاً
+          من التراث السويسري، بل انها تتصدر قائمة الشخصيات السويسرية الكبرى،
+          وتفوقت على وليم تيل الشخصية الأسطورية، لأنها تحظى بشهرة أكبر من شهرته
+          خارج سويسرا وغدت أحسن سفير لهذا البلد في القارات الخمس
+        </p>
+        <p>
+          <span> اهم ثلاث قصص: </span>
+
+          1- صعود الجبل الى خال الألم 2- في البيت مع الجد 3- الخروج مع الماعز
+          الماعز
+        </p>
+      </div>
+      <div class="photo">
+        <img src="./Picture/282651.jpg" />
+        <img src="./Picture/298604.jpg" />
+        <img src="./Picture/346573.jpg" />
+      </div>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <!--  -->
+    <form class="details">
+      <div class="form-group">
+        <label for="fullName">الاسم الكامل</label>
+        <input type="text" id="fullName" placeholder="أحرف هجائية فقط" />
+        <div class="error" id="fullNameError"></div>
+      </div>
+
+      <div class="form-group">
+        <label for="ID">الرقم الوطني</label>
+        <input type="text" id="ID" placeholder="11 خانة " required />
+        <div class="error" id="nationalIDError"></div>
+      </div>
+
+      <div class="form-group">
+        <label for="birth">تاريخ الولادة</label>
+        <input type="text" id="birth" placeholder="dd-mm-yyyy" />
+        <div class="error" id="birthError"></div>
+      </div>
+
+      <div class="form-group">
+        <label for="phone">رقم الموبايل</label>
+        <input type="text" id="phone" placeholder="Syriatel أو MTN" />
+        <div class="error" id="phoneError"></div>
+      </div>
+
+      <div class="form-group">
+        <label for="email">الإيميل</label>
+        <input type="email" id="email" placeholder="example@domain.com" />
+        <div class="error" id="emailError"></div>
+      </div>
+      <button class="send">ارسال</button>
+    </form>
+    <div class="mod hidden">
+      <button class="close-modal">&times;</button>
+      <h1><div class="result"></div></h1>
+    </div>
+
+    <script src="myFunctions.js"></script>
+  </body>
+</html>
