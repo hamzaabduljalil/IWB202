@@ -336,14 +336,13 @@ table {
 }
 .mod {
   position: absolute;
-  top: 75%;
+  top: 100%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 70%;
   background-color: #e5f3f3;
   padding: 96px;
   border-radius: 5px;
-  box-shadow: 48px 80px rgba(0, 0, 0, 0.3);
   z-index: 10;
 }
 .result {
